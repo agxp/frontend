@@ -1,0 +1,79 @@
+/*.App {*/
+  /*text-align: center;*/
+/*}*/
+
+/*.App-logo {*/
+  /*animation: App-logo-spin infinite 20s linear;*/
+  /*height: 80px;*/
+/*}*/
+
+/*.App-header {*/
+  /*background-color: #222;*/
+  /*height: 150px;*/
+  /*padding: 20px;*/
+  /*color: white;*/
+/*}*/
+
+/*.App-title {*/
+  /*font-size: 1.5em;*/
+/*}*/
+
+/*.App-intro {*/
+  /*font-size: large;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+  /*from { transform: rotate(0deg); }*/
+  /*to { transform: rotate(360deg); }*/
+/*}*/
+
+
+
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/sidebar.css");
+@import url("components/tabbar.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+
+.padding-clear {
+  padding: 0;
+}
+
+.margin-clear {
+  margin: 0;
+}
+
+.wrapper-grey {
+  background-color: #F1F1F1;
+  padding: 5px 20px;
+}
+
+.vid-content {
+  /*height: 100vh;*/
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+.vid-content h3{
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.vid-content:first-child {
+  margin-top: 50px;
+}
+
+.main-content {
+  background-color: white;
+  margin-top: 50px;
+}
