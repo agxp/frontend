@@ -6,7 +6,7 @@ import WatchVideoPage from './components/Video/WatchVideoPage';
 class App extends Component {
   render() {
     return (
-      <WatchVideoPage/>
+      <Home/>
     );
   }
 }

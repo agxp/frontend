@@ -25,7 +25,12 @@ export function Upload() {
 }
 
 export function GetTrending() {
-
+  return fetch(ROUTER_URL + '/trending', {
+    method: 'POST',
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+  })
 }
 
 export function Search(query, page) {

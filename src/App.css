@@ -77,3 +77,8 @@ h1, h2, h3 {
   background-color: white;
   margin-top: 50px;
 }
+
+.thumb {
+  max-width: 200px;
+  max-height: 200px;
+}
