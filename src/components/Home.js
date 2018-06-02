@@ -3,7 +3,7 @@ import Header from './Header';
 import Trending from './Video/TrendingVideos'
 import Footer from './Footer'
 
-class Home extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div>
@@ -26,4 +26,3 @@ class Home extends Component {
   }
 }
 
-export default Home;

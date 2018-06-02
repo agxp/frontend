@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class VideoCompact extends Component {
+export default class VideoCompact extends Component {
   render() {
     return (
       <div className="card">
@@ -14,4 +14,3 @@ class VideoCompact extends Component {
   }
 }
 
-export default VideoCompact;

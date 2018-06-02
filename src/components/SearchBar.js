@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class SearchBar extends Component {
+export default class SearchBar extends Component {
   render() {
     return (
       <form action="" className="form-inline">
@@ -12,5 +12,3 @@ class SearchBar extends Component {
     );
   }
 }
-
-export default SearchBar;

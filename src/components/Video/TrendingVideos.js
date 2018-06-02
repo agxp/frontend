@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import VideoCompact from './VideoCompact';
 
-class TrendingVideos extends Component {
+export default class TrendingVideos extends Component {
   render() {
     return (
       <div className="wrapper-grey">
@@ -57,4 +57,3 @@ class TrendingVideos extends Component {
   }
 }
 
-export default TrendingVideos;

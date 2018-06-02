@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchBar from './SearchBar';
 
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
         <div className="navbar-me">
@@ -26,5 +26,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;
