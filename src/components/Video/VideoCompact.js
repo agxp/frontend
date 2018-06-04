@@ -13,6 +13,7 @@ export default class VideoCompact extends Component {
 
   GetVideoCompact() {
     let videoCompact = this.props.video;
+    console.log(this.props)
     if (videoCompact) {
       let id = videoCompact["id"];
       let title = videoCompact["title"];
