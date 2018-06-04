@@ -35,17 +35,19 @@ export default class TrendingVideos extends Component {
     let trending = this.state.trending;
     if (trending != null) {
       let data = trending.data.map((v) => {
-        return (<div className="row">
+        return (
           <div className="col-xs-12 col-sm-6 col-md-3">
             <VideoCompact video={v} />
           </div>
-        </div>)
+        )
       });
       return (
         <div className="wrapper-grey">
           <div className="vid-content">
             <h3>Trending</h3>
+            <div className="row">
             {data}
+            </div>
           </div>
         </div>
       )

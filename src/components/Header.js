@@ -9,7 +9,7 @@ export default class Header extends Component {
             <a href="#" className="hamburger">
               <i className="fa fa-bars" aria-hidden="true" />
             </a>
-            <a href="#">
+            <a href="/">
               <img src="CloudFlix.png" alt="CloudFlix" />
             </a>
             <SearchBar/>

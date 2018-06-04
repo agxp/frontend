@@ -5,9 +5,13 @@ import WatchVideoPage from './components/Video/WatchVideoPage';
 
 class App extends Component {
   render() {
-    return (
-      <Home/>
-    );
+    if (window.location.href.includes("/watch?id=")) {
+      return (
+        <WatchVideoPage/>
+      );
+    }
+    return <Home/>
+
   }
 }
 

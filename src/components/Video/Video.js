@@ -16,7 +16,9 @@ export default class Video extends Component {
   GetVideo() {
     let videoResponse = this.props.videoResponse;
      if (videoResponse) {
-       let url = videoResponse["presigned_url"];
+       // let url = videoResponse["presigned_url"];
+       let id = this.props.id;
+       let url = "http://192.168.1.74:32218/videos/" + id + "/" + id + "_240.mp4";
        this.setState({url});
        console.log(url)
      }
